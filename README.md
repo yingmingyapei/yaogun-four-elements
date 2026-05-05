@@ -7,7 +7,9 @@
 ![Language](https://img.shields.io/badge/language-markdown-blue?style=flat&logo=markdown)
 ![Category](https://img.shields.io/badge/category-trading-orange?style=flat)
 
-基于500只A股妖股深度复盘总结的核心交易逻辑体系，所有能走出持续上涨行情的妖股，均完美契合四大核心逻辑，形成不可缺一的上涨闭环。
+![妖股四象封面](assets/cover.svg)
+
+基于 500 只 A 股妖股深度复盘总结的核心交易逻辑体系...
 
 ---
 

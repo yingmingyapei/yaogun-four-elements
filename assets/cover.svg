@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1c40f;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:0.15"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- 装饰网格 -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+  
+  <!-- 标题 -->
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#glow)">妖股四象</text>
+  <text x="400" y="105" font-family="Arial, sans-serif" font-size="14" fill="#888888" text-anchor="middle" font-style="italic">YAOGUN FOUR ELEMENTS</text>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">妖股不瞎涨，四象定乾坤</text>
+  
+  <!-- 第一象：情绪锚点 -->
+  <rect x="80" y="170" width="240" height="140" rx="15" fill="url(#greenGrad)" stroke="#2ecc71" stroke-width="2"/>
+  <circle cx="120" cy="210" r="20" fill="#2ecc71" opacity="0.8"/>
+  <text x="120" y="217" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🟢</text>
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">情绪锚点</text>
+  <text x="200" y="245" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">第一象 · 底层基石</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="11" fill="#999999">先判情绪，再选个股</text>
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="11" fill="#999999">退潮空仓，上升谨慎</text>
+  
+  <!-- 第二象：题材内核 -->
+  <rect x="480" y="170" width="240" height="140" rx="15" fill="url(#blueGrad)" stroke="#3498db" stroke-width="2"/>
+  <circle cx="520" cy="210" r="20" fill="#3498db" opacity="0.8"/>
+  <text x="520" y="217" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🔵</text>
+  <text x="600" y="220" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">题材内核</text>
+  <text x="600" y="245" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">第二象 · 核心驱动力</text>
+  <text x="600" y="270" font-family="Arial, sans-serif" font-size="11" fill="#999999">政策+景气+需求</text>
+  <text x="600" y="290" font-family="Arial, sans-serif" font-size="11" fill="#999999">蹭概念者，坚决规避</text>
+  
+  <!-- 第三象：资金合力 -->
+  <rect x="80" y="370" width="240" height="140" rx="15" fill="url(#yellowGrad)" stroke="#f1c40f" stroke-width="2"/>
+  <circle cx="120" cy="410" r="20" fill="#f1c40f" opacity="0.8"/>
+  <text x="120" y="417" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🟡</text>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">资金合力</text>
+  <text x="200" y="445" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">第三象 · 动力引擎</text>
+  <text x="200" y="470" font-family="Arial, sans-serif" font-size="11" fill="#999999">温和放量是真妖</text>
+  <text x="200" y="490" font-family="Arial, sans-serif" font-size="11" fill="#999999">暴量突增是出货</text>
+  
+  <!-- 第四象：筹码支撑 -->
+  <rect x="480" y="370" width="240" height="140" rx="15" fill="url(#redGrad)" stroke="#e74c3c" stroke-width="2"/>
+  <circle cx="520" cy="410" r="20" fill="#e74c3c" opacity="0.8"/>
+  <text x="520" y="417" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🔴</text>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">筹码支撑</text>
+  <text x="600" y="445" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">第四象 · 风控保障</text>
+  <text x="600" y="470" font-family="Arial, sans-serif" font-size="11" fill="#999999">筹码紧致阻力小</text>
+  <text x="600" y="490" font-family="Arial, sans-serif" font-size="11" fill="#999999">换手5%-30%健康</text>
+  
+  <!-- 箭头连接 -->
+  <!-- 情绪 -> 题材 -->
+  <path d="M 330 240 L 470 240" stroke="#ffffff" stroke-width="2" stroke-opacity="0.5" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">提供土壤</text>
+  
+  <!-- 题材 -> 筹码 -->
+  <path d="M 600 320 L 600 360" stroke="#ffffff" stroke-width="2" stroke-opacity="0.5" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="625" y="350" font-family="Arial, sans-serif" font-size="10" fill="#888888">提供方向</text>
+  
+  <!-- 筹码 -> 资金 -->
+  <path d="M 480 440 L 340 440" stroke="#ffffff" stroke-width="2" stroke-opacity="0.5" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="410" y="425" font-family="Arial, sans-serif" font-size="10" fill="#888888" text-anchor="middle">提供燃料</text>
+  
+  <!-- 资金 -> 情绪 -->
+  <path d="M 200 360 L 200 320" stroke="#ffffff" stroke-width="2" stroke-opacity="0.5" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="175" y="350" font-family="Arial, sans-serif" font-size="10" fill="#888888" text-anchor="end">提供保障</text>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff" fill-opacity="0.5"/>
+    </marker>
+  </defs>
+  
+  <!-- 中心闭环标识 -->
+  <ellipse cx="400" cy="310" rx="80" ry="35" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">四象闭环</text>
+  
+  <!-- 底部信息 -->
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="11" fill="#777777" text-anchor="middle">基于500只A股妖股深度复盘总结</text>
+  <text x="400" y="568" font-family="Arial, sans-serif" font-size="10" fill="#666666" text-anchor="middle">GitHub: yingmingyapei/yaogun-four-elements</text>
+  
+  <!-- 装饰圆点 -->
+  <circle cx="100" cy="100" r="3" fill="#2ecc71" opacity="0.5"/>
+  <circle cx="700" cy="100" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="100" cy="500" r="3" fill="#f1c40f" opacity="0.5"/>
+  <circle cx="700" cy="500" r="3" fill="#e74c3c" opacity="0.5"/>
+</svg>
